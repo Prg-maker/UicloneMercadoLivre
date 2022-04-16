@@ -1,6 +1,7 @@
 import React from "react";
 
 import TshirtImg from "../../assets/tshirt.png";
+import ProductAction from "../ProductAction";
 import {SellerInfo} from "../SellerInfo";
 
 import { 
@@ -31,7 +32,7 @@ export function Product() {
         </Column>
 
         <Column>
-          {/*<ProductAction/>*/}
+          <ProductAction/>
           <SellerInfo/>
           <WarrantySection />
           <WarrantySection />
